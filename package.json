@@ -1,5 +1,7 @@
 {
     "name": "mytoys-next",
+    "version": "1.0.0",
+    "license": "ISC",
     "private": true,
     "scripts": {
         "dev": "next dev",
@@ -28,7 +30,7 @@
         "eslint-plugin-react": "7.26.1",
         "eslint-plugin-react-hooks": "4.2.0",
         "eslint-plugin-unused-imports": "1.1.5",
-        "husky": "^7.0.4",
+        "husky": "7.0.4",
         "jest": "27.3.1",
         "lint-staged": "^11.2.6",
         "prettier": "2.4.1",
@@ -43,7 +45,7 @@
     },
     "lint-staged": {
         "*.{ts,tsx,js}": [
-            "eslint --fix",
+            "yarn lint:fix",
             "prettier --write",
             "git add"
         ],
