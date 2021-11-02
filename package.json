@@ -13,7 +13,8 @@
         "test": "jest --passWithNoTests",
         "update-paths": "node ./utils/packages/updatePathMappings",
         "generate:package": "hygen package new && yarn update-paths",
-        "generate:hook": "hygen hook new"
+        "generate:hook": "hygen hook new",
+        "generate:util": "hygen util new"
     },
     "dependencies": {
         "next": "12.0.2",
