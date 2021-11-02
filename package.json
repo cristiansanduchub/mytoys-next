@@ -46,12 +46,10 @@
     "lint-staged": {
         "*.{ts,tsx,js}": [
             "yarn lint:fix",
-            "prettier --write",
-            "git add"
+            "prettier --write"
         ],
         "*.scss": [
-            "prettier --write",
-            "git add"
+            "prettier --write"
         ]
     },
     "browserslist": [
