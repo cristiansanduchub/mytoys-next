@@ -35,3 +35,11 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# Cypress recorded videos and screenshots
+/cypress/videos/
+/cypress/screenshots/
+/cypress/.DS_Store
+
+# Editors
+.idea/
