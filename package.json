@@ -10,7 +10,10 @@
         "lint": "eslint --ext .tsx,.ts,.js src",
         "lint:fix": "eslint --ext .tsx,.ts,.js src --fix",
         "format:fix": "prettier --write src",
-        "test": "jest --passWithNoTests"
+        "test": "jest --passWithNoTests",
+        "update-paths": "node ./utils/packages/updatePathMappings",
+        "generate:package": "hygen package new && yarn update-paths",
+        "generate:hook": "hygen hook new"
     },
     "dependencies": {
         "next": "12.0.2",
@@ -32,7 +35,9 @@
         "eslint-plugin-react": "7.26.1",
         "eslint-plugin-react-hooks": "4.2.0",
         "eslint-plugin-unused-imports": "1.1.5",
+        "fast-glob": "^3.2.7",
         "husky": "4.3.8",
+        "hygen": "^6.1.0",
         "jest": "27.3.1",
         "lint-staged": "^11.2.6",
         "prettier": "2.4.1",

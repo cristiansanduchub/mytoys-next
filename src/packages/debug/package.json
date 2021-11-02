@@ -1,0 +1,8 @@
+{
+    "name": "@packages/debug",
+    "version": "1.0.0",
+    "description": "Debugging tools",
+    "main": "./src/index.ts",
+    "license": "MIT",
+    "sideEffects": false
+}
