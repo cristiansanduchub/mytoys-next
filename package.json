@@ -9,6 +9,7 @@
         "start": "next start",
         "lint": "eslint --ext .tsx,.ts,.js src",
         "lint:fix": "eslint --ext .tsx,.ts,.js src --fix",
+        "format:fix": "prettier --write src",
         "test": "jest --passWithNoTests"
     },
     "dependencies": {
@@ -46,11 +47,10 @@
     },
     "lint-staged": {
         "*.{ts,tsx,js}": [
-            "yarn lint:fix",
-            "prettier --write"
+            "yarn lint:fix"
         ],
         "*.scss": [
-            "prettier --write"
+            "yarn format:fix"
         ]
     },
     "browserslist": [
