@@ -17,7 +17,9 @@
         "incremental": true,
         "baseUrl": "./src",
         "paths": {
+            "@app/home": ["app/home/src/index.ts"],
             "@packages/debug": ["packages/debug/src/index.ts"],
+            "@packages/scaffolding": ["features/scaffolding/src/index.ts"],
             "@pages/*": ["pages/*"],
             "@styles/*": ["styles/*"],
             "@typings/*": ["typings/*"]

@@ -14,9 +14,11 @@
         "update-paths": "node ./utils/packages/updatePathMappings",
         "generate:package": "hygen package new && yarn update-paths",
         "generate:hook": "hygen hook new",
-        "generate:util": "hygen util new"
+        "generate:util": "hygen util new",
+        "generate:component": "hygen component new"
     },
     "dependencies": {
+        "classnames": "^2.3.1",
         "js-cookie": "3.0.1",
         "next": "12.0.2",
         "react": "17.0.2",

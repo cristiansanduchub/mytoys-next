@@ -3,7 +3,7 @@ const { join, dirname, relative } = require('path');
 const fs = require('fs');
 const readPackages = require('./readPackages');
 
-const whitelist = ['@components', '@packages'];
+const whitelist = ['@components', '@packages', '@app', '@packages'];
 
 const log = (msg) => console.log(`🔗 ${msg}`);
 

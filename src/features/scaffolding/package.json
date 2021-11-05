@@ -1,0 +1,8 @@
+{
+    "name": "@packages/scaffolding",
+    "version": "1.0.0",
+    "description": "Scaffolding helpers",
+    "main": "./src/index.ts",
+    "license": "MIT",
+    "sideEffects": false
+}
