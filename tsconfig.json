@@ -22,7 +22,7 @@
             "@packages/scaffolding": ["features/scaffolding/src/index.ts"],
             "@pages/*": ["pages/*"],
             "@styles/*": ["styles/*"],
-            "@typings/*": ["typings/*"]
+            "@typings/*": ["typings/*"],
         }
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
